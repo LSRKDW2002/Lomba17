@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Panjat Tiang Kemerdekaan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Level : Hard</h1>
+
+    <a href="Menu.html" class="Kembali" role="button" data-bs-toggle="button">Kembali</a>
+
+    <div class="container">
+    <div id="pinang1" class="pinang">
+      <div class="tiang"></div>
+      <div class="pucuk"></div>
+    </div>
+
+    <div id="pinang2" class="pinang">
+      <div class="tiang"></div>
+      <div class="pucuk"></div>
+    </div>
+
+    <svg id="player" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 100">
+      <!-- Kepala -->
+      <circle cx="15" cy="20" r="7" fill="white" />
+      <!-- Badan -->
+      <line x1="15" y1="27" x2="15" y2="60" stroke="white" stroke-width="3" />
+      <!-- Tangan kiri -->
+      <line x1="15" y1="30" x2="10" y2="40" stroke="white" stroke-width="3" />
+      <!-- Tangan kanan -->
+      <line x1="15" y1="30" x2="20" y2="40" stroke="white" stroke-width="3" />
+      <!-- Kaki kiri -->
+      <line x1="15" y1="60" x2="10" y2="80" stroke="white" stroke-width="3" />
+      <!-- Kaki kanan -->
+      <line x1="15" y1="60" x2="20" y2="80" stroke="white" stroke-width="3" />
+    </svg>
+    <svg id="bot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 100">
+      <!-- Kepala -->
+      <circle cx="15" cy="20" r="7" fill="red" />
+      <!-- Badan -->
+      <line x1="15" y1="27" x2="15" y2="60" stroke="red" stroke-width="3" />
+      <!-- Tangan kiri -->
+      <line x1="15" y1="30" x2="10" y2="40" stroke="red" stroke-width="3" />
+      <!-- Tangan kanan -->
+      <line x1="15" y1="30" x2="20" y2="40" stroke="red" stroke-width="3" />
+      <!-- Kaki kiri -->
+      <line x1="15" y1="60" x2="10" y2="80" stroke="red" stroke-width="3" />
+      <!-- Kaki kanan -->
+      <line x1="15" y1="60" x2="20" y2="80" stroke="red" stroke-width="3" />
+    </svg>
+    
+    <div id="message-box" class="message-box"></div>
+    <button id="start-btn">Mulai</button>
+  </div>
+  <script src="script-h.js"></script>
+</body>
+</html>

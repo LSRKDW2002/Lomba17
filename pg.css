@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+head{
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #d1d1d1;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature{
+    font-size: 30px;
+    color: #bb0000;
+    font-family: Marker Felt, fantasy;
+}
+
+
+#teka-teki-silang {
+    background-image: url('img/tts.jpg'); /* Ganti dengan URL gambar Teka Teki Silang */
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    font-family: Marker Felt, fantasy;
+    box-shadow: 0 0 5px white, 0 0 25px white;
+    transition: transform 0.3s ease 0s;
+}
+
+#teka-teki-silang:hover{
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+    transform: scale(1.1);
+}
+
+#panjat-tiang {
+    background-image: url('img/pp.jpg'); /* Ganti dengan URL gambar Panjat Tiang */
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+    font-family: Marker Felt, fantasy;
+    box-shadow: 0 0 5px white, 0 0 25px white;
+    transition: transform 0.3s ease 0s;
+}
+
+#panjat-tiang:hover{
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red, 0 0 200px red;
+    transform: scale(1.1);
+}
+
+#game-buttons {
+    text-align: center;
+}
+button {
+    font-size: 80px;
+    padding: 0;
+    margin: 50px;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+  }

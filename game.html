@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pg.css">
+    <title>Independence Day's Game</title>
+</head>
+<body>
+    <nav class="nav scrolled blur-bg" id="navbar">
+        <img class="icon" src="img/78.png" alt width="100px">
+        <h1 class="signature">TERUS MELAJU UNTUK INDONESIA MAJU</h1>
+    </nav>
+
+    <div id="game-buttons">
+        <button id="teka-teki-silang">Teka Teki Silang</button>
+        <button id="panjat-tiang">Panjat Tiang</button>
+    </div>
+
+  <script>
+    const tekaTekiSilangButton = document.getElementById('teka-teki-silang');
+    const panjatTiangButton = document.getElementById('panjat-tiang');
+
+    tekaTekiSilangButton.addEventListener('click', () => {
+      window.location.href = 'tts.html'; // Ganti dengan file HTML Teka Teki Silang
+    });
+
+    panjatTiangButton.addEventListener('click', () => {
+      window.location.href = 'Menu.html'; // Ganti dengan file HTML Panjat Tiang
+    });
+  </script>
+</body>
+</html>

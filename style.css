@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+head{
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bb0000;
+    display: block;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 100px;
+}
+
+.signature{
+    font-size: 30px;
+    color: #bb0000;
+    font-family: Marker Felt, fantasy;
+}
+
+.garuda {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    animation: waveAnimation 4s linear infinite;
+}
+
+
+.sambutan {
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffffbb;
+    color: #ff0000;
+    border: 5px solid white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: transform 0.3s ease 0s;
+}
+
+a:hover{
+    background-color: white;
+    color: #ff0000;
+    transform: scale(0.9);
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
